@@ -8,7 +8,8 @@ namespace S3
     public class PlayerController : NetworkBehaviour{
 
         public GameObject bulletPrefab;
-        public Transform bulletSpawn;
+        public Transform bulletSpawn1;
+        public Transform bulletSpawn2;
 
         void Update()
         {
@@ -26,6 +27,7 @@ namespace S3
             if (Input.GetKeyDown(KeyCode.Space))
             {
                 CmdFire();
+                CmdFire2();
             }
         }
 
@@ -33,7 +35,21 @@ namespace S3
         void CmdFire()
         {
             //Crea las balas desde el prefab
-            GameObject bullet = (GameObject)Instantiate(bulletPrefab, bulletSpawn.position, bulletSpawn.rotation);
+            GameObject bullet = (GameObject)Instantiate(bulletPrefab, bulletSpawn1.position, bulletSpawn1.rotation);
+
+            //Añade velocidad al objeto
+            bullet.GetComponent<Rigidbody>().velocity = bullet.transform.forward * 6.0f;
+
+            //Spawnea las balas para los clientes
+            NetworkServer.Spawn(bullet);
+
+            //Destruye la bala pasados dos segundos
+            Destroy(bullet, 2);
+        }
+        void CmdFire2()
+        {
+            //Crea las balas desde el prefab
+            GameObject bullet = (GameObject)Instantiate(bulletPrefab, bulletSpawn2.position, bulletSpawn2.rotation);
 
             //Añade velocidad al objeto
             bullet.GetComponent<Rigidbody>().velocity = bullet.transform.forward * 6.0f;

@@ -1,0 +1,339 @@
+fileFormatVersion: 2
+guid: c26079e18429a3941bcc133be7f6c018
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Armature
+    100002: body
+    100004: bot
+    100006: bot 1
+    100008: //RootNode
+    100010: bot_end
+    100012: corpus
+    100014: Cylinder.008
+    100016: Cylinder.009
+    100018: Cylinder.010
+    100020: Cylinder.011
+    100022: Cylinder.012
+    100024: Cylinder.013
+    100026: Cylinder.014
+    100028: Cylinder.015
+    100030: head
+    100032: head 1
+    100034: head_end
+    100036: hip
+    100038: hip 1
+    100040: left_gun
+    100042: left_gun 1
+    100044: left_gun_end
+    100046: neck
+    100048: neck 1
+    100050: right_gun
+    100052: right_gun 1
+    100054: right_gun_end
+    400000: Armature
+    400002: body
+    400004: bot
+    400006: bot 1
+    400008: //RootNode
+    400010: bot_end
+    400012: corpus
+    400014: Cylinder.008
+    400016: Cylinder.009
+    400018: Cylinder.010
+    400020: Cylinder.011
+    400022: Cylinder.012
+    400024: Cylinder.013
+    400026: Cylinder.014
+    400028: Cylinder.015
+    400030: head
+    400032: head 1
+    400034: head_end
+    400036: hip
+    400038: hip 1
+    400040: left_gun
+    400042: left_gun 1
+    400044: left_gun_end
+    400046: neck
+    400048: neck 1
+    400050: right_gun
+    400052: right_gun 1
+    400054: right_gun_end
+    2100000: bot
+    2100002: vagon'
+    2300000: Cylinder.008
+    2300002: Cylinder.009
+    2300004: Cylinder.010
+    2300006: Cylinder.011
+    2300008: Cylinder.012
+    2300010: Cylinder.013
+    2300012: Cylinder.014
+    2300014: Cylinder.015
+    3300000: Cylinder.008
+    3300002: Cylinder.009
+    3300004: Cylinder.010
+    3300006: Cylinder.011
+    3300008: Cylinder.012
+    3300010: Cylinder.013
+    3300012: Cylinder.014
+    3300014: Cylinder.015
+    4300000: body
+    4300002: left_gun
+    4300004: right_gun
+    4300006: neck
+    4300008: head
+    4300010: hip
+    4300012: bot
+    4300014: Cylinder.015
+    4300016: Cylinder.014
+    4300018: Cylinder.013
+    4300020: Cylinder.012
+    4300022: Cylinder.011
+    4300024: Cylinder.010
+    4300026: Cylinder.009
+    4300028: Cylinder.008
+    7400000: Armature|ArmatureAction
+    7400002: Armature|CylinderAction
+    7400004: Armature|CylinderAction.001
+    7400006: Armature|CylinderAction.002
+    7400008: Armature|CylinderAction.003
+    7400010: Armature|CylinderAction.004
+    7400012: Armature|CylinderAction.005
+    7400014: Armature|CylinderAction.006
+    7400016: Armature|CylinderAction.007
+    7400018: Armature|CylinderAction.008
+    7400020: Armature|CylinderAction.009
+    7400022: Armature|CylinderAction.010
+    7400024: Armature|CylinderAction.011
+    7400026: Armature|CylinderAction.012
+    7400028: Armature|CylinderAction.013
+    7400030: Armature|CylinderAction.014
+    7400032: Armature|CylinderAction.015
+    7400034: Armature|CylinderAction.016
+    7400036: Cylinder.015|CylinderAction
+    7400038: Cylinder.015|CylinderAction.001
+    7400040: Cylinder.015|CylinderAction.002
+    7400042: Cylinder.015|CylinderAction.003
+    7400044: Cylinder.015|CylinderAction.004
+    7400046: Cylinder.015|CylinderAction.005
+    7400048: Cylinder.015|CylinderAction.006
+    7400050: Cylinder.015|CylinderAction.007
+    7400052: Cylinder.015|CylinderAction.008
+    7400054: Cylinder.015|CylinderAction.009
+    7400056: Cylinder.015|CylinderAction.010
+    7400058: Cylinder.015|CylinderAction.011
+    7400060: Cylinder.015|CylinderAction.012
+    7400062: Cylinder.015|CylinderAction.013
+    7400064: Cylinder.015|CylinderAction.014
+    7400066: Cylinder.015|CylinderAction.015
+    7400068: Cylinder.015|CylinderAction.016
+    7400070: Cylinder.014|CylinderAction
+    7400072: Cylinder.014|CylinderAction.001
+    7400074: Cylinder.014|CylinderAction.002
+    7400076: Cylinder.014|CylinderAction.003
+    7400078: Cylinder.014|CylinderAction.004
+    7400080: Cylinder.014|CylinderAction.005
+    7400082: Cylinder.014|CylinderAction.006
+    7400084: Cylinder.014|CylinderAction.007
+    7400086: Cylinder.014|CylinderAction.008
+    7400088: Cylinder.014|CylinderAction.009
+    7400090: Cylinder.014|CylinderAction.010
+    7400092: Cylinder.014|CylinderAction.011
+    7400094: Cylinder.014|CylinderAction.012
+    7400096: Cylinder.014|CylinderAction.013
+    7400098: Cylinder.014|CylinderAction.014
+    7400100: Cylinder.014|CylinderAction.015
+    7400102: Cylinder.014|CylinderAction.016
+    7400104: Cylinder.013|CylinderAction
+    7400106: Cylinder.013|CylinderAction.001
+    7400108: Cylinder.013|CylinderAction.002
+    7400110: Cylinder.013|CylinderAction.003
+    7400112: Cylinder.013|CylinderAction.004
+    7400114: Cylinder.013|CylinderAction.005
+    7400116: Cylinder.013|CylinderAction.006
+    7400118: Cylinder.013|CylinderAction.007
+    7400120: Cylinder.013|CylinderAction.008
+    7400122: Cylinder.013|CylinderAction.009
+    7400124: Cylinder.013|CylinderAction.010
+    7400126: Cylinder.013|CylinderAction.011
+    7400128: Cylinder.013|CylinderAction.012
+    7400130: Cylinder.013|CylinderAction.013
+    7400132: Cylinder.013|CylinderAction.014
+    7400134: Cylinder.013|CylinderAction.015
+    7400136: Cylinder.013|CylinderAction.016
+    7400138: Cylinder.012|CylinderAction
+    7400140: Cylinder.012|CylinderAction.001
+    7400142: Cylinder.012|CylinderAction.002
+    7400144: Cylinder.012|CylinderAction.003
+    7400146: Cylinder.012|CylinderAction.004
+    7400148: Cylinder.012|CylinderAction.005
+    7400150: Cylinder.012|CylinderAction.006
+    7400152: Cylinder.012|CylinderAction.007
+    7400154: Cylinder.012|CylinderAction.008
+    7400156: Cylinder.012|CylinderAction.009
+    7400158: Cylinder.012|CylinderAction.010
+    7400160: Cylinder.012|CylinderAction.011
+    7400162: Cylinder.012|CylinderAction.012
+    7400164: Cylinder.012|CylinderAction.013
+    7400166: Cylinder.012|CylinderAction.014
+    7400168: Cylinder.012|CylinderAction.015
+    7400170: Cylinder.012|CylinderAction.016
+    7400172: Cylinder.011|CylinderAction
+    7400174: Cylinder.011|CylinderAction.001
+    7400176: Cylinder.011|CylinderAction.002
+    7400178: Cylinder.011|CylinderAction.003
+    7400180: Cylinder.011|CylinderAction.004
+    7400182: Cylinder.011|CylinderAction.005
+    7400184: Cylinder.011|CylinderAction.006
+    7400186: Cylinder.011|CylinderAction.007
+    7400188: Cylinder.011|CylinderAction.008
+    7400190: Cylinder.011|CylinderAction.009
+    7400192: Cylinder.011|CylinderAction.010
+    7400194: Cylinder.011|CylinderAction.011
+    7400196: Cylinder.011|CylinderAction.012
+    7400198: Cylinder.011|CylinderAction.013
+    7400200: Cylinder.011|CylinderAction.014
+    7400202: Cylinder.011|CylinderAction.015
+    7400204: Cylinder.011|CylinderAction.016
+    7400206: Cylinder.010|CylinderAction
+    7400208: Cylinder.010|CylinderAction.001
+    7400210: Cylinder.010|CylinderAction.002
+    7400212: Cylinder.010|CylinderAction.003
+    7400214: Cylinder.010|CylinderAction.004
+    7400216: Cylinder.010|CylinderAction.005
+    7400218: Cylinder.010|CylinderAction.006
+    7400220: Cylinder.010|CylinderAction.007
+    7400222: Cylinder.010|CylinderAction.008
+    7400224: Cylinder.010|CylinderAction.009
+    7400226: Cylinder.010|CylinderAction.010
+    7400228: Cylinder.010|CylinderAction.011
+    7400230: Cylinder.010|CylinderAction.012
+    7400232: Cylinder.010|CylinderAction.013
+    7400234: Cylinder.010|CylinderAction.014
+    7400236: Cylinder.010|CylinderAction.015
+    7400238: Cylinder.010|CylinderAction.016
+    7400240: Cylinder.009|CylinderAction
+    7400242: Cylinder.009|CylinderAction.001
+    7400244: Cylinder.009|CylinderAction.002
+    7400246: Cylinder.009|CylinderAction.003
+    7400248: Cylinder.009|CylinderAction.004
+    7400250: Cylinder.009|CylinderAction.005
+    7400252: Cylinder.009|CylinderAction.006
+    7400254: Cylinder.009|CylinderAction.007
+    7400256: Cylinder.009|CylinderAction.008
+    7400258: Cylinder.009|CylinderAction.009
+    7400260: Cylinder.009|CylinderAction.010
+    7400262: Cylinder.009|CylinderAction.011
+    7400264: Cylinder.009|CylinderAction.012
+    7400266: Cylinder.009|CylinderAction.013
+    7400268: Cylinder.009|CylinderAction.014
+    7400270: Cylinder.009|CylinderAction.015
+    7400272: Cylinder.009|CylinderAction.016
+    7400274: Cylinder.008|CylinderAction
+    7400276: Cylinder.008|CylinderAction.001
+    7400278: Cylinder.008|CylinderAction.002
+    7400280: Cylinder.008|CylinderAction.003
+    7400282: Cylinder.008|CylinderAction.004
+    7400284: Cylinder.008|CylinderAction.005
+    7400286: Cylinder.008|CylinderAction.006
+    7400288: Cylinder.008|CylinderAction.007
+    7400290: Cylinder.008|CylinderAction.008
+    7400292: Cylinder.008|CylinderAction.009
+    7400294: Cylinder.008|CylinderAction.010
+    7400296: Cylinder.008|CylinderAction.011
+    7400298: Cylinder.008|CylinderAction.012
+    7400300: Cylinder.008|CylinderAction.013
+    7400302: Cylinder.008|CylinderAction.014
+    7400304: Cylinder.008|CylinderAction.015
+    7400306: Cylinder.008|CylinderAction.016
+    9500000: //RootNode
+    13700000: body
+    13700002: bot
+    13700004: head
+    13700006: hip
+    13700008: left_gun
+    13700010: neck
+    13700012: right_gun
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
