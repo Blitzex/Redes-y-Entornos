@@ -1576,6 +1576,7 @@ MonoBehaviour:
     type: 2}
   bulletSpawn1: {fileID: 4517636318088640}
   bulletSpawn2: {fileID: 4801580463493266}
+  newRenderer: {fileID: 2100000, guid: a2911b8025f6d96459959bfebade76e1, type: 2}
 --- !u!114 &114929146492574726
 MonoBehaviour:
   m_ObjectHideFlags: 1

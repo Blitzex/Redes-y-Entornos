@@ -41,7 +41,7 @@ namespace S3
                     RpcRespawn();
                 }
             }
-        }
+    }
 
         void OnChangeHealth(int health)
         {

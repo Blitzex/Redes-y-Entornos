@@ -93,7 +93,7 @@ GameObject:
   - component: {fileID: 114623104087645508}
   - component: {fileID: 114176916668605104}
   - component: {fileID: 114437301997687302}
-  - component: {fileID: 136592599285667964}
+  - component: {fileID: 136189807002980346}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -375,7 +375,7 @@ MonoBehaviour:
     i15: 197
   m_ServerOnly: 0
   m_LocalPlayerAuthority: 1
---- !u!136 &136592599285667964
+--- !u!136 &136189807002980346
 CapsuleCollider:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}

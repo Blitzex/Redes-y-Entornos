@@ -249,7 +249,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyPrefab: {fileID: 1696388307105678, guid: 58498708a49fba34da928b2cbb2885c5,
     type: 2}
-  numberOfEnemies: 4
+  numberOfEnemies: 7
 --- !u!114 &365406652
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -307,7 +307,7 @@ GameObject:
   - component: {fileID: 534669903}
   m_Layer: 0
   m_Name: Main Camera
-  m_TagString: Untagged
+  m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
